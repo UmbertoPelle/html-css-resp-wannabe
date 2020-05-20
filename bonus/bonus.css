@@ -1,5 +1,5 @@
 /* tablet version */
-@media screen and (min-width: 420px) and (max-width:800px){
+@media screen and (min-width: 420px) and (max-width:1000px){
   *{
    margin: 0;
    padding: 0;
@@ -12,5 +12,9 @@
 
   img{
     max-width: 90%;
+  }
+
+  #steps{
+    padding-bottom: 30px;
   }
 }
