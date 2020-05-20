@@ -1,12 +1,26 @@
 /* mobile version */
 @media screen and (max-width: 419px) {
-  #lezioni.container .row{
+  *{
+   margin: 0;
+   padding: 0;
+  }
+
+  .container .row{
     width: 100%;
     margin: 0;
   }
 
   #lezioni.container .row div{
     float: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #steps{
+    padding-bottom: 20px;
+  }
+
+  #steps.container.grey .row div{
     width: 100%;
     margin-bottom: 15px;
   }
