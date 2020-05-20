@@ -1,0 +1,16 @@
+/* tablet version */
+@media screen and (min-width: 420px) and (max-width:800px){
+  *{
+   margin: 0;
+   padding: 0;
+  }
+
+  .container .row{
+    width: 100%;
+    margin: 0;
+  }
+
+  img{
+    max-width: 90%;
+  }
+}
