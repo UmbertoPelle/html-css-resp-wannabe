@@ -11,7 +11,7 @@
     margin: 0;
   }
 
-  #lezioni.container .row div{
+  #lezioni.container .row div,#steps.container.grey .row div {
     float: none;
     width: 100%;
     margin-bottom: 15px;
@@ -19,10 +19,5 @@
 
   #steps{
     padding-bottom: 30px;
-  }
-
-  #steps.container.grey .row div{
-    width: 100%;
-    margin-bottom: 15px;
   }
 }
